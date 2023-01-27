@@ -1,0 +1,7 @@
+{
+  "name": "noticias-la-bancaria",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

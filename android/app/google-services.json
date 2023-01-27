@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "823297312381",
+    "project_id": "la-bancaria-mdp",
+    "storage_bucket": "la-bancaria-mdp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:823297312381:android:9c2ee429975a3adf139314",
+        "android_client_info": {
+          "package_name": "io.ionic.starter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "823297312381-1a658n4lo3sghpd685l1oe79r3v9gpfv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCj2WzjvRNWYJTbVQZUaWjECQhHuK7IfGg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "823297312381-1a658n4lo3sghpd685l1oe79r3v9gpfv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

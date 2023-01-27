@@ -1,0 +1,30 @@
+<ion-header [translucent]="true" mode="ios" class="ion-no-border">
+  <ion-toolbar>
+    <ion-title>
+      Encabezados
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense" mode="ios" class="ion-no-border">
+    <ion-toolbar>
+      <ion-title size="large">Beneficios y Noticias</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-segment [value]="categoryDefault" (ionChange)="segmentChanged($event)" scrollable="true" mode="md">
+    <ion-segment-button value="pizza" *ngFor="let categoria of categorias" [value]="categoria">
+      <ion-label class="ion-text-capitalize">{{categoria}}</ion-label>
+    </ion-segment-button>
+  </ion-segment>
+  <app-articles [noticias]="noticias"></app-articles>
+
+  <!-- <ion-infinite-scroll 
+  threshold="25%" 
+  position="bottom" 
+  (ionInfinite)="loadData()">
+
+    <ion-infinite-scroll-content loadingSpinner="bubbles" loadingText="Loading more data...">
+    </ion-infinite-scroll-content>
+  </ion-infinite-scroll> -->
+</ion-content>
